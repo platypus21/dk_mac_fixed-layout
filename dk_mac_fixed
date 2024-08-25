@@ -3,9 +3,56 @@ xkb_symbols "basic" {
 	include "dk(mac_nodeadkeys)"
 	name[Group1]= "Danish (Fixed Macintosh, no dead keys)";
 
-	key <TLDE> { [ dollar, section, threequarters, paragraph ] };
-	key <AE04> { [ 4, EuroSign ] };
-	key <AE07> { [ 7, slash, braceleft, backslash ] };
-	key <AD08> { [ i, I, bar, idotless ] };
-	key <BKSL> { [apostrophe, asterisk, at, multiply ] };
+        key <TLDE> { [  dollar , section , UF8FF , apostrophe  ] };
+        key <AE01> { [  1 , exclam , exclamdown , macron ] };
+        key <AE02> { [  2 , quotedbl , leftdoublequotemark , rightdoublequotemark ] };
+        key <AE03> { [  3 , numbersign , section , dollar ] };
+        key <AE04> { [  4 , EuroSign , sterling , cent  ] };
+        key <AE05> { [  5 , percent , infinity , U2030  ] };
+        key <AE06> { [  6 , ampersand , trademark , asciitilde  ] };
+        key <AE07> { [  7 , slash , paragraph , backslash  ] };
+        key <AE08> { [  8 , parenleft , bracketleft , braceleft  ] };
+        key <AE09> { [  9 , parenright , bracketright , braceright  ] };
+        key <AE10> { [  0 , equal , notequal , U2248  ] };
+        key <AE11> { [  plus , question , plusminus , questiondown  ] };
+        key <AE12> { [  dead_acute , dead_grave , apostrophe , U2044  ] };
+
+        key <AD01> { [  q , Q , U2218 , U2219  ] };
+        key <AD02> { [  w , W , Greek_SIGMA , degree ] };
+        key <AD03> { [  e , E , eacute , Eacute  ] };
+        key <AD04> { [  r , R , registered , Acircumflex  ] };
+        key <AD05> { [  t , T , dagger , U2021  ] };
+        key <AD06> { [  y , Y , yen , Ydiaeresis  ] };
+        key <AD07> { [  u , U , udiaeresis , Udiaeresis  ] };
+        key <AD08> { [  i , I , bar , idotless  ] };
+        key <AD09> { [  o , O , oe , OE  ] };
+        key <AD10> { [  p , P , Greek_pi , U220F  ] };
+        key <AD11> { [  aring , Aring , leftsinglequotemark , rightsinglequotemark  ] };
+        key <AD12> { [  dead_diaeresis , dead_circumflex , dead_tilde , asciicircum  ] };
+
+        key <AC01> { [  a , A , ordfeminine , Ecircumflex  ] };
+        key <AC02> { [  s , S , ssharp , caron  ] };
+        key <AC03> { [  d , D , partialderivative , breve  ] };
+        key <AC04> { [  f , F , function, UFB01  ] };
+        key <AC05> { [  g , G , copyright , Aacute  ] };
+        key <AC06> { [  h , H , guillemotleft , guillemotright  ] };
+        key <AC07> { [  j , J , U2039 , U203A  ] };
+        key <AC08> { [  k , K , U0394 , U02F6  ] };
+        key <AC09> { [  l , L , notsign , UFB02  ] };
+        key <AC10> { [  ae , AE , adiaeresis , Adiaeresis  ] };
+        key <AC11> { [  oslash , Oslash , odiaeresis , Odiaeresis  ] };
+        key <BKSL> { [  apostrophe , asterisk , at ,  masculine  ] };
+
+        key <LSGT> { [  less , greater , U2264 , U2265  ] };
+        key <AB01> { [  z , Z , Greek_OMEGA , cedilla  ] };
+        key <AB02> { [  x , X , ellipsis , abovedot  ] };
+        key <AB03> { [  c , C , ccedilla , Ccedilla  ] };
+        key <AB04> { [  v , V , U221A , U25CA  ] };
+        key <AB05> { [  b , B , integral , Ediaeresis  ] };
+        key <AB06> { [  n , N , ntilde , Ntilde  ] };
+        key <AB07> { [  m , M , mu , twosuperior  ] };
+        key <AB08> { [  comma , semicolon , singlelowquotemark , doublelowquotemark  ] };
+        key <AB09> { [  period , colon , periodcentered , division  ] };
+        key <AB10> { [  minus , underscore , endash , emdash ] };
+
 };
